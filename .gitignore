@@ -1,0 +1,16 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# built binary
+nadabrahma
+*.exe
+
+# local gem cache
+data/
+*.db
+*.db-*
+
+# archived old web app (kept locally, not pushed)
+_archive/
